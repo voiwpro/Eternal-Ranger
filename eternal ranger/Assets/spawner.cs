@@ -26,13 +26,13 @@ public class spawner : MonoBehaviour
             timer=0;
         }
     }
-
-    
     void rando(){
         float lowpoint=transform.position.x-offset;
         float highestPoint = transform.position.x + offset;
         Instantiate(rock, new Vector3( Random.Range(lowpoint, highestPoint),transform.position.y ) ,Quaternion.identity);
         
         
+        
     }
 }
+

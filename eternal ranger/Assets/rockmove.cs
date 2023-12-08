@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class rockmove : MonoBehaviour
@@ -13,14 +14,21 @@ public class rockmove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(transform.position.x);
         Dock();
     }
     void Dock(){
         if((transform.position.x<=-7.00)||(transform.position.x>=8))
         {
-            Debug.Log(transform.position.x);
+            
         Destroy(gameObject);
+        
         }
+
+ 
     }
-}
+   
+    }
+
+        
+    
+
