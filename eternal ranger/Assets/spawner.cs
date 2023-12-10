@@ -7,7 +7,7 @@ public class spawner : MonoBehaviour
     public GameObject rock;
     public float radius;
     public float timer=0;
-    public float spawnrate=2;
+    public float spawnrate=1;
     public float offset =5;
     // Start is called before the first frame update
     void Start()
